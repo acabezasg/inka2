@@ -30,13 +30,14 @@ background: white;
 
 .hish2 {
     width: 100%;
-    background: black;
+    background: url(/static/assets/hish2.jpg);background-size: cover;
+    background-repeat: no-repeat;background-position: center;
     height: 580px;
 }
 
 .hish2hijo {
     width: 50%;
-    background: red;
+    background: none;
     float: left;
     height: 100%;
 }
