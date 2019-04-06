@@ -5531,11 +5531,16 @@ input#id_quantity{padding:.5rem}
 
 
 
-div.divhome{    background: url(/static/assets/fondo.jpg);
-    width: 60%;
-    height:500px;
+div.divhome {
+    background: none;
+    border: solid #c9a85b;
+    width: 50%;
+    height: 500px;
     background-size: 100%;
-    margin: 0 auto;margin-top: 30px;    margin-bottom: 160px;}
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 160px;
+}
 
 
 
@@ -5645,9 +5650,8 @@ div.divhome:before {
 .divhome p {
     color: black;
     font-size: 60px;
-    text-align: left;
     margin-top: -60px;
-    margin-left: 140px;
+    text-align: center;
 }
 
 
@@ -5655,7 +5659,9 @@ div.divhome:before {
 .hish {
     color: black;
     width: 50%;
-    text-align: justify;background: none;
+    text-align: justify;
+    background: none;
+    margin: 0 auto;
     padding: 30px;
 }
 
@@ -6115,7 +6121,7 @@ img.lukimg{       margin: 0 auto;
 .home h1 {
     font-weight: 300;
     text-transform: uppercase;
-    font-family: sylf;
+    font-family: sylf;text-align: center;
     color: black;
 }
 
