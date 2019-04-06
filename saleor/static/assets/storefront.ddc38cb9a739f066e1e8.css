@@ -4639,7 +4639,7 @@ input#id_quantity{padding:.5rem}
 
  select.form-control{-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:2px;background:url(/static/assets/arrow-select.07424881f80a990195a6c8c3e8a4ea3c.svg) 100% 50% no-repeat/24px 14px}
 
- .navigation ul{border-bottom:1px solid #d3d1d0;margin-bottom:1rem;display:block;text-align:center}
+ .navigation ul{    border-bottom: none;margin-bottom:1rem;display:block;text-align:center}
 
  .navigation ul.no-border{border-bottom:0;margin-bottom:0}
 
