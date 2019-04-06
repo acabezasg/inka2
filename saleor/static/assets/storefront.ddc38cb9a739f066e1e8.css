@@ -27,6 +27,20 @@ background: white;
 }
 
 
+
+.hish2 {
+    width: 100%;
+    background: black;
+    height: 580px;
+}
+
+.hish2hijo {
+    width: 50%;
+    background: red;
+    float: left;
+    height: 100%;
+}
+
 .nav-item__dropdown-content a {
     color: black !important;
 }
