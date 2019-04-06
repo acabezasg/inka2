@@ -27,6 +27,10 @@ background: white;
 }
 
 
+.nav-item__dropdown-content a {
+    color: black !important;
+}
+
 img.logofooter {
     width: 300px;
     max-height: 250px;
