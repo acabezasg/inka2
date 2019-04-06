@@ -96,7 +96,7 @@ img.logoxd{width: 150px;
 }
 
 button.atras {
-    background: #c57e6f;
+    background: #c9a85b;
     color: white;
     font-size: 30px;
     border: none;
@@ -4737,14 +4737,14 @@ input#id_quantity{padding:.5rem}
 
 .navbar__search form .btn {
     padding: 1rem;
-    background: none;    color: #c57e6f;
+    background: none;    color: #c9a85b;
 }
 
  .navbar__search .mobile-search-icon{float:right;padding-right:1rem}
 
 .navbar__brand {
    
-    color: #c57e6f;
+    color: #c9a85b;
 }
 
  @media (max-width:767.98px){.navbar__brand{position:fixed;top:0;left:0;width:100vw;background-color:#fff;z-index:5;border-bottom:1px solid #d3d1d0}
@@ -4759,7 +4759,7 @@ input#id_quantity{padding:.5rem}
 
 }
 
-.navbar__brand__cart .cart__icon{color:#c57e6f;display:block;border:1px solid transparent;border-radius:4px 4px 0 0;padding:2.5rem 1.5rem;position:absolute;right:0;top:0;z-index:4}
+.navbar__brand__cart .cart__icon{color:#c9a85b;display:block;border:1px solid transparent;border-radius:4px 4px 0 0;padding:2.5rem 1.5rem;position:absolute;right:0;top:0;z-index:4}
 
  @media (max-width:767.98px){.navbar__brand__cart .cart__icon{position:relative;padding:2rem 1rem 2rem 0}
 
@@ -5572,9 +5572,15 @@ img.imgder {
     display: none;
 }
 .hish a {
+    background: black;
+    padding: 10px;
     color: white;
-    background:black !important;
-    padding: 6px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: table;
+    margin-top: 50px;
 }
 
     @keyframes slidy {
@@ -6126,7 +6132,7 @@ img.lukimg{       margin: 0 auto;
     font-weight: 300;
     text-transform: uppercase;
     font-family: sylf;text-align: center;
-    color: black;
+    color:#121127
 }
 
 svg.injected-svg.logo-document-2 {
@@ -6152,7 +6158,7 @@ svg.injected-svg.logo-document-2 {
 li.menunos {
        width: 25%;
     float: left;
-    background: #c57e6f;
+    background: #c9a85b;
     color: white !important;
     border: 15px solid white;
     font-size: 25px !important;
@@ -6170,7 +6176,7 @@ li.active {
 li.active {
        width: 25%;
     float: left;
-    background: #c57e6f;
+    background: #c9a85b;
     color: white !important;
     border: 15px solid white;
     font-size: 25px !important;
@@ -6191,7 +6197,7 @@ li.active a {
 
 a.active {
     background: #efe6dc;
-    color: #c57e6f !important;
+    color: #c9a85b !important;
     width: 100% !important;
     display: inline-block;
     border-radius: 0px;
@@ -6211,7 +6217,7 @@ img.categoria {
 }
 
 button.atras {
-    background: #c57e6f;
+    background: #c9a85b;
     color: white;
     font-size: 21px;
     border: none;
@@ -7327,7 +7333,7 @@ img.imagenn {
 li.menunos {
     width: 25%;
     float: left;
-    background: #c57e6f;
+    background: #c9a85b;
     color: white !important;
     border: 4px solid white;
     border-radius: 7px;
