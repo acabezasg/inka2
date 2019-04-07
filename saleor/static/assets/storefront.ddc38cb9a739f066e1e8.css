@@ -44,11 +44,29 @@ background: white;
 
 
 .hish2hijo div {
-   width: 90%;
-   height:90%;
-   background:#00000085;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    background: #00000085;
+    border: solid white;
+    margin-top: 30px;
 }
 
+.hish2hijo div p {
+    padding: 40px;
+}
+
+.hish2hijo div a {
+    background: black;
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: table;
+    margin-top: 50px;
+}
 
 .nav-item__dropdown-content a {
     color: black !important;
