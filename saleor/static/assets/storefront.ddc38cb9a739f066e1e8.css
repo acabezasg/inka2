@@ -15,7 +15,7 @@ body {
     background-color: #333;
 }
 
-.container {
+.container2 {
     margin: 0 auto;
     max-width: 700px;
     max-height: 100vh;
@@ -82,8 +82,16 @@ body {
     padding: 0.2em 1.5em;
 }
 .move-btn:first-child {border-right: none;}
-.move-btn.left  { cursor: w-resize; }
-.move-btn.right { cursor: e-resize; }
+.move-btn.left  {     cursor: e-resize;
+    float: left;
+    background: #121127;
+    width: 40%;
+    color: #deaa69; }
+.move-btn.right {     cursor: e-resize;
+    float: right;
+    background: #121127;
+    width: 40%;
+    color: #deaa69; }
 
 
 
