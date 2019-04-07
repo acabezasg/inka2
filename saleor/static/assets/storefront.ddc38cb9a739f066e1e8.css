@@ -42,6 +42,14 @@ background: white;
     height: 100%;
 }
 
+
+.hish2hijo div {
+   width: 90%;
+   height:90%;
+   background:#00000085;
+}
+
+
 .nav-item__dropdown-content a {
     color: black !important;
 }
