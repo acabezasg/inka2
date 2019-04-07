@@ -302,7 +302,7 @@ background: white;
     font-family: sylf;
     color: #121127;
     text-align: center;
-    text-transform: uppercase;    text-decoration: underline;
+    text-transform: uppercase;   
 
 }
 
@@ -4701,11 +4701,11 @@ input#id_quantity{padding:.5rem}
 
  .navigation ul .nav-item a{color:#fff;transition:.3s;text-transform:uppercase;display:inline-block;padding:1.5rem;    font-size: 12px;    font-weight: bold;}
 
- .navigation ul .nav-item a:hover{color:rgba(51,51,51,.6)}
+ .navigation ul .nav-item a:hover{color:#caa75a;}
 
  @media (min-width:768px){.navigation ul .nav-item__dropdown{display:inline-block;position:relative}
 
- .navigation ul .nav-item__dropdown:hover>a{border-bottom:3px solid #000}
+ .navigation ul .nav-item__dropdown:hover>a{border-bottom:3px solid #caa75a}
 
  .navigation ul .nav-item__dropdown>a{padding:.5rem;margin:1rem;box-sizing:border-box;border-bottom:3px solid #fff}
 
