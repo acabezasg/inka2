@@ -20,6 +20,7 @@ body {
     max-width: 700px;
     max-height: 100vh;
     background-color: white;
+    margin-top: 35px;
 }
 
 
@@ -70,7 +71,7 @@ body {
 .gallery-item.active { opacity: 1; }
 
 .controls {
-    font-size: 0;
+   font-size: 20px;
     border-top: none;
 }
 .move-btn {
