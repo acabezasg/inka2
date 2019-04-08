@@ -4853,7 +4853,7 @@ input#id_quantity{padding:.5rem}
 
  .navigation ul .nav-item__dropdown-content .container>ul{min-width:120px;width:360px;display:flex;flex-wrap:wrap}
 
- .navigation ul .nav-item__dropdown-content .container>ul li{display:inline-block;max-width:110px}
+ .navigation ul .nav-item__dropdown-content .container>ul li{display:inline-block;max-width: 160px;}
 
  .navigation ul .nav-item__dropdown-content .container>ul li:not(:last-child){margin-right:2rem}
 
@@ -4863,7 +4863,12 @@ input#id_quantity{padding:.5rem}
 
 .menu .menu__item ul{border-bottom:none;list-style-type:none;padding-left:0;text-align:left;margin-bottom:0}
 
- .menu .menu__item ul ul{padding-left:1rem}
+ .menu .menu__item ul ul{padding-left:1rem;    background: #caa75a;}
+
+ .menu .menu__item ul ul a {
+    color: white;
+    font-size: 12px;
+}
 
  .menu .menu__item ul li{text-align:left}
 
