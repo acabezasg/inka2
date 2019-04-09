@@ -172,7 +172,7 @@ background: white;
 }
 
 .hish2hijo {
-        width: 100%;
+           width: 50%;
     background: none;
     float: left;
     height: 100%;
@@ -6398,6 +6398,15 @@ a.active {
     width: 100%;
 
 }
+
+
+.hish2hijo {
+           width: 100%;
+    background: none;
+    float: left;
+    height: 100%;
+}
+
 
 .navigation ul .nav-item a {
     color: #000 !important;
