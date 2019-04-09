@@ -168,11 +168,11 @@ background: white;
     width: 100%;
     background: url(/static/assets/hish2.jpg);background-size: cover;
     background-repeat: no-repeat;background-position: center;
-    height: 580px;
+    height: 580px;    margin-top: 110px;
 }
 
 .hish2hijo {
-    width: 50%;
+        width: 100%;
     background: none;
     float: left;
     height: 100%;
@@ -189,7 +189,7 @@ background: white;
 }
 
 .hish2hijo div p {
-    padding: 40px;
+    padding: 40px;    font-size: 10px;
 }
 
 .hish2hijo div a {
@@ -6400,6 +6400,16 @@ a.active {
 
     width: 100%;
 
+}
+
+.navigation ul .nav-item a {
+    color: #000 !important;
+    transition: .3s;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 1.5rem;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 img.categoria {
