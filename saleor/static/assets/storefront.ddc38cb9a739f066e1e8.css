@@ -6958,7 +6958,9 @@ img.susto{width: 100%;margin-bottom: 20px;}
 .lookbook {
     width: 100%;
     margin: 0 auto;
-    height: 3666px;
+    
+    height: auto;
+}
 }
 
 .sustentablehijo {
