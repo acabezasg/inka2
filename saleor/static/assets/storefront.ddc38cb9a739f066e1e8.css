@@ -6313,6 +6313,31 @@ img.susto {
 
 
 
+.lookbookhijo21 {
+           width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(https://www.cispe.org.pe/fotosinka/coleccojinesparacas5OK/DSC08694.JPG);background-position: -100px;
+}
+
+
+.lookbookhijo21 h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+
+
+
+
+
+
+
 
 
 
