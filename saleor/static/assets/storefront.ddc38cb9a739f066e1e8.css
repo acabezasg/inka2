@@ -6404,6 +6404,25 @@ img.susto {
 
 
 
+.lookbookhijo25 {
+           width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(https://www.cispe.org.pe/fotosinka/ColecPOMPOSNaturalorgánico2/DSC09662.JPG);background-position: -100px;
+}
+
+
+.lookbookhijo25 h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+
 
 
 
@@ -6766,7 +6785,7 @@ a.active {
 @media only screen and (max-width: 900px) {
   div.divhome {
 
-    width: 100%;
+    width: 100% !important;
 
 }
 
@@ -7381,11 +7400,11 @@ img.imgder {
 
 div.divhome {
     background: url(/static/assets/fondo.jpg);
-    width: 100%;
-        height: auto;
+    width: 50%;
+    height: auto;
     background-size: 100%;
     margin: 0 auto;
-    margin-top: 0px;
+    margin-top: 60px;
     margin-bottom: 0px;
 }
 
@@ -7400,9 +7419,9 @@ div.divhome:before {
 }
 
 .divhome p {
-     color: black;
+    color: black;
     font-size: 50px;
-    text-align: left;
+    text-align: center;
     margin-top: -46px;
     margin-left: 10px;
 }
