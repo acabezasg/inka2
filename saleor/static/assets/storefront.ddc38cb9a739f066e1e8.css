@@ -24,6 +24,18 @@ body {
 }
 
 
+blockquote {
+    width: 90%;
+    padding-top: 76px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    font-family: sylf;
+}
+
 /* Useful Classes */
 .xy-center {
     position: absolute;
@@ -6802,6 +6814,13 @@ a.active {
     font-size: 13px;
 }
 
+
+
+blockquote {
+    width: 95%;
+    padding-top: 76px;
+    margin: 0 auto;
+}
 
 .hish2hijo {
            width: 100%;
