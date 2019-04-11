@@ -360,7 +360,14 @@ background: white;
 
  blockquote{margin:0 0 1rem}
 
- b,strong{font-weight:bolder}
+b, strong {
+    font-weight: bolder;
+    font-family: sylf;
+}
+
+blockquote img {
+    width: 100%;
+}
 
  small{font-size:80%}
 
