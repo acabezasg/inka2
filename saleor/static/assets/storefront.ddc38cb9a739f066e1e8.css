@@ -189,7 +189,7 @@ background: white;
 }
 
 .hish2hijo div p {
-    padding: 40px;    font-size: 10px;
+    padding: 40px;   font-size: 17px;
 }
 
 .hish2hijo div a {
@@ -6797,6 +6797,11 @@ a.active {
 
 }
 
+.hish2hijo div p {
+    padding: 40px;
+    font-size: 13px;
+}
+
 
 .hish2hijo {
            width: 100%;
@@ -7435,12 +7440,16 @@ div.divhome:before {
 }
 
 .hish a {
-    position: absolute;
+position: unset;
     z-index: 9999999999;
     background: black;
     color: white;
     padding: 5px 15px 5px 15px;
+    margin: 0 auto;
+    justify-content: center;
     margin-top: 11px;
+    align-items: center;
+    align-content: center;
 }
 
 .navbar__logo a svg {
