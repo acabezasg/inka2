@@ -41,7 +41,7 @@ button#myBtn {
 blockquote {
     width: 90%;
     padding-top: 76px;
-        margin: 0 auto !important;
+    margin: 0 auto !important;
 
 }
 
@@ -4888,7 +4888,7 @@ input#id_quantity{padding:.5rem}
 
  .navigation ul .nav-item__dropdown:hover>a{border-bottom:3px solid #caa75a}
 
- .navigation ul .nav-item__dropdown>a{padding:.5rem;margin:1rem;box-sizing:border-box;border-bottom:3px solid #fff}
+ .navigation ul .nav-item__dropdown>a{padding:.5rem;margin:1rem;box-sizing:border-box;border-bottom:3px solid #fff;    cursor: default;}
 
  .navigation ul .nav-item__dropdown-content{display:none;position:absolute;z-index:3;border:1px solid #d3d1d0;background-color:#fff;text-align:left}
 
