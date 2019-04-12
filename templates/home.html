@@ -155,12 +155,17 @@ p{text-align: justify;}
 
 
 <p><center><h2>Historia:<h2></center><br>
-Dalila Gamarra. Trabajadora Social, a finales de los años 80, se encontraba realizando sus prácticas  profesionales en comunidades de la periferia de Lima. 
-Estas comunidades eran conformadas por cientos de familias que habían huido de sus lugares de origen para refugiarse en la capital. En ese entonces los azotaba una crisis social,  política y económica, ocasionada por  el terrorismo en el interior del país. 
-Años más tarde durante sus visitas a los pueblos jóvenes poblados por personas que migraban del interior del país a la capital huyendo del terrorismo, trabajó  gestionando comedores populares como parte de su trabajo profesional en donde detecta la ausencia de las madres al ver a niños pequeños al cuidado de sus hermanitos bebés quienes acudían a recoger los alimentos de los comedores populares.
-Frente a ésta situación propone identificar capacidades manuales en las madres para que se desarrollen en sus hogares y puedan estar al cuidado de sus hijos pequeños. Esta propuesta fué para que  generen un ingreso económico. y no tengan necesidad de salir en búsqueda de trabajo fuera del hogar.
-Entabla una relación con ellas, la mayoría mujeres, luego capta sus habilidades. Entre ellas tejido, bordado, platería, cerámica, pintura, entre otros.
+ 
  <p>
+
+
+
+  <p>Dalila Gamarra. Trabajadora Social, a finales de los años 80, se encontraba realizando sus prácticas  profesionales en comunidades de la periferia de Lima. 
+Estas comunidades eran conformadas por cientos de familias que habían huido de sus lugares de origen para refugiarse en la capital. En ese entonces los azotaba una crisis social,  política y económica, ocasionada por  el terrorismo en el interior del país. 
+Años más tarde durante sus visitas a los pueblos jóvenes poblados por personas que migraban del interior del país<span id="dots">...</span><span id="more">a la capital huyendo del terrorismo, trabajó  gestionando comedores populares como parte de su trabajo profesional en donde detecta la ausencia de las madres al ver a niños pequeños al cuidado de sus hermanitos bebés quienes acudían a recoger los alimentos de los comedores populares.
+Frente a ésta situación propone identificar capacidades manuales en las madres para que se desarrollen en sus hogares y puedan estar al cuidado de sus hijos pequeños. Esta propuesta fué para que  generen un ingreso económico. y no tengan necesidad de salir en búsqueda de trabajo fuera del hogar.
+Entabla una relación con ellas, la mayoría mujeres, luego capta sus habilidades. Entre ellas tejido, bordado, platería, cerámica, pintura, entre otros.</span></p>
+<button onclick="myFunction()" id="myBtn">Leer Más</button>
 
     <br><br>
 
@@ -390,7 +395,28 @@ Aliados Estrategicos</p>
         <div class="row">
           {% include "product/_items.html" %}
         </div>
-      </div> -->
+      </div>
+
+     -->
+
+
+     <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
 
 
 <footer class="footer">

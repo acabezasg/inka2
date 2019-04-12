@@ -15,6 +15,8 @@ body {
     background-color: #333;
 }
 
+#more {display: none;}
+
 .container2 {
     margin: 0 auto;
     max-width: 700px;
