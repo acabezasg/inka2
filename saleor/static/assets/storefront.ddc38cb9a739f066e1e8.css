@@ -31,6 +31,12 @@ blockquote {
 
 }
 
+.contenidotodo b {
+    font-family: sylf !important;
+    font-size: 20px;
+    color: #121127;
+}
+
 h2 {
     font-size: 35px !important;
     text-align: center !important;
