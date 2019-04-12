@@ -5778,7 +5778,7 @@ div.divhome {
 
 .container.maincontent {
     width: 100% !important;
-    max-width: unset;
+    max-width: unset;background: url(/static/assets/fondoico.jpg);background-size: cover;background-attachment: fixed;background-repeat: no-repeat;
 }
 
 
