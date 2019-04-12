@@ -6456,7 +6456,42 @@ img.susto {
 
 
 
+.lookbookhijo26 {
+           width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(https://www.cispe.org.pe/fotosinka/HOME&DECO1.png);background-position: -100px;
+}
 
+
+.lookbookhijo26 h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;font-size: 20px !important;
+}
+
+
+
+
+.lookbookhijo27 {
+           width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(https://www.cispe.org.pe/fotosinka/HOME&DECO2.png);background-position: -100px;
+}
+
+
+.lookbookhijo27 h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;font-size: 20px !important;
+}
 
 
 
