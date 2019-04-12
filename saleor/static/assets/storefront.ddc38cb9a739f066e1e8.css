@@ -22,7 +22,11 @@ body {
     background-color: white;
     margin-top: 35px;
 }
-
+.contenidotodo {
+    width: 85%;
+    text-align: justify;
+    margin: 0 auto;
+}
 
 blockquote {
     width: 90%;
