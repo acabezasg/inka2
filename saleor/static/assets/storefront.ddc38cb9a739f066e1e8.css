@@ -6863,6 +6863,13 @@ a.active {
 
 }
 
+
+.contenidotodo h2 {
+    width: 86%;
+    font-size: 22px !important;
+    border: solid #15132f 3px;
+}
+
 .hish2hijo div p {
     padding: 40px;
     font-size: 13px;
