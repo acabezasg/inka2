@@ -7938,7 +7938,7 @@ position: unset;
     align-content: center;
 }
 
-.navbar__logo a svg {
+/*.navbar__logo a svg {
       height: auto;
     width: 20px !important;
     max-width: unset !important;
@@ -7947,7 +7947,7 @@ position: unset;
     top: 0px !important;
     margin-left: 85px;
 }
-
+*/
 img.imagenn {
     width: 100%;
 }
