@@ -6883,10 +6883,11 @@ a.active {
 
 .navbar__logo a svg {
     height: auto !important;
-    width: 150px !important;
+    width: 23px !important;
     max-width: unset !important;
-    position: unset !important;
-    top: 0px !important;
+    position: absolute !important;
+    top: 30px !important;
+    right: 90px;
     transform: scale(5) !important;
 }
 
