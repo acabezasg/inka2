@@ -196,61 +196,65 @@
       <div class="row">
           {% footer_menu site_menu=site.settings.bottom_menu %}
         <div class="col-md-2 col-6">
+       
         <ul class="menu">
           <li class="nav-item__dropdown menu__item">
             <a>
               <strong>
-                {% trans "Account" %}
+                Customers
               </strong>
             </a>
-            <hr />
-            <li>
-              <a rel="nofollow" href="{% url "cart:index" %}">
-                {% trans "Your Cart" context "Main navigation item" %}
+            <hr>
+            </li><li>
+              <a rel="nofollow" href="/en/cart/">
+                Your Cart
               </a>
             </li>
-            {% if user.is_authenticated %}
-              {% if user.is_staff %}
+            
+              
                 <li>
-                  <a href="{% url "dashboard:index" %}" target="_blank" rel="noopener">
-                    {% trans "Dashboard" context "Main navigation item" %}
+                  <a href="/dashboard/" target="_blank" rel="noopener">
+                    Dashboard
                   </a>
                 </li>
-                <li>
-                  <a href="{% url "styleguide" %}" target="_blank">
-                    {% trans "Style guide" context "Main navigation item" %}
+
+
+
+<li>
+    <a href="" _blank"="" rel="noopener">
+                    Payment policy
                   </a>
                 </li>
-              {% endif %}
-              <li>
-                <a href="{% url "account:details" %}">
-                  {% trans "Your account" context "Main navigation item" %}
-                </a>
-              </li>
-              {% if user.is_impersonate %}
-                <li>
-                  <a href="{% url "impersonate-stop" %}">
-                    {% trans 'Stop impersonating' context 'Main navigation item' %}
+<li>
+    <a href="" _blank"="" rel="noopener">
+                    Our Showroom
                   </a>
                 </li>
-              {% else %}
-                <li>
-                  <a href="{% url "account:logout" %}">
-                    {% trans "Log out" context "Main navigation item" %}</a>
+
+<li>
+    <a href="" _blank"="" rel="noopener">
+                    Your Suggestions
+                  </a>
                 </li>
-              {% endif %}
-            {% else %}
+              
               <li>
-                <a rel="nofollow" href="{% url "account:signup" %}">
-                  {% trans "Register" context "Main navigation item" %}
+                <a href="/en/account/">
+                  Promotions
                 </a>
               </li>
-              <li>
-                <a rel="nofollow" href="{% url "account:login" %}">
-                  {% trans "Log in" context "Main navigation item" %}
+    <li>
+                <a href="/en/account/">
+                  Conditions
                 </a>
               </li>
-            {% endif %}
+              
+              
+                <li>
+                  <a href="/en/account/logout/">
+                    Log out</a>
+                </li>
+              
+            
           </ul>
         </div>
         <div class="offset-md-2 col-md-4 col-12">
