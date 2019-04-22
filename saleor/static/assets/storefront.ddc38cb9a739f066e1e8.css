@@ -1880,7 +1880,7 @@ blockquote img {
 
  .navbar{position:relative;padding:.5rem 1rem}
 
- .navbar,.navbar>.container,.navbar>.container-fluid{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between; background: #121127ad;}
+ .navbar,.navbar>.container,.navbar>.container-fluid{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between; background: #121127ad;    z-index: 99999;}
 
  .navbar-brand{display:inline-block;padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.25rem;line-height:inherit;white-space:nowrap}
 
