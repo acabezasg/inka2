@@ -6888,7 +6888,7 @@ a.active {
 @media only screen and (max-width: 900px) {
   div.divhome {
 
-    width: 100% !important;
+    width: 100% !important;margin-top: 215px !important
 
 }
 
