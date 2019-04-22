@@ -8,6 +8,12 @@
     box-sizing: border-box;
 }
 
+.navbar__brand__cart.float-right {
+    position: fixed;
+    right: 15px;
+    top: 0px;
+}
+
 body {
     margin: 0;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -4966,7 +4972,13 @@ input#id_quantity{padding:.5rem}
 
  .navbar__logo .menu-icon-mobile span{position:absolute;top:1.3rem;left:1.1rem;text-transform:uppercase;font-size:.45rem}
 
- .navbar__logo .menu-icon-mobile svg{height:30px;vertical-align:top}
+.navbar__logo .menu-icon-mobile svg {
+    height: 30px;
+    vertical-align: top;
+    background: white;
+    border-radius: 5px;
+    margin-top: 15px;
+}
 
  @media (max-width:370px){.navbar__logo .menu-icon-mobile{top:0}
 
@@ -6897,8 +6909,8 @@ a.active {
     width: 23px !important;
     max-width: unset !important;
     position: absolute !important;
-    top: 30px !important;
-    right: 90px;
+    top: 50px !important;
+    right: 60px;
     transform: scale(5) !important;
 }
 
