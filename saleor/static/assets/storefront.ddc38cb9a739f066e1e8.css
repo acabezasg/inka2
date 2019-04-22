@@ -219,7 +219,7 @@ background: white;
     width: 100%;
     background: url(/static/assets/hish2.jpg);background-size: cover;
     background-repeat: no-repeat;background-position: center;
-    height: 580px;    margin-top: 110px;
+    height: 870px;    margin-top: 110px;
 }
 
 .hish2hijo {
@@ -6923,7 +6923,7 @@ a.active {
 
 .hish2hijo div p {
     padding: 40px;
-    font-size: 13px;
+    font-size: 13px;margin-top: 220px;
 }
 
 
@@ -6936,7 +6936,7 @@ blockquote {
 
 .hish2hijo {
            width: 100%;
-    background: none;
+    background: none;position: absolute;
     float: left;
     height: 100%;
 }
