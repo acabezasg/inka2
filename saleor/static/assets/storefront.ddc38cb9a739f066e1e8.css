@@ -338,18 +338,6 @@ button.atras {
 
 @media only screen and (max-width: 600px) {
 
-div.headchiqui{
-    width: 100%;
-    height: 80px;
-    background: white;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-}
-
-
-
-
 iframe {
     width: 100%;
 }
