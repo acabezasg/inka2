@@ -21,6 +21,20 @@ body {
     background-color: #333;
 }
 
+.pisofinal img {
+    width: 90%;margin-bottom: 20px;transition: 0.6s;
+
+}
+
+.pisofinal img:hover {
+   transform: scale(1.6);transition: 0.6s;
+    
+}
+.pisofinal {
+    column-count: 3;width: 90%;
+    margin: 0 auto;
+}
+
 iframe {
     width: 90%;
 }
@@ -339,6 +353,14 @@ button.atras {
 @media only screen and (max-width: 600px) {
 
 iframe {
+    width: 100%;
+}
+
+.pisofinal {
+    column-count: 1;
+}
+
+.pisofinal img{
     width: 100%;
 }
 img.logoxd {
