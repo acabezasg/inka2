@@ -6973,6 +6973,22 @@ li.active a {
 
 
 
+
+
+
+@media only screen and (max-width: 767px) {
+ .navbar__logo a svg {
+    height: auto !important;
+    width: 20px !important;
+    max-width: unset !important;
+    position: absolute !important;
+    top: 58px !important;
+    left: 70% !important;
+    transform: scale(5) !important;
+}
+
+
+                }
 a.active {
     background: #efe6dc;
     color: #c9a85b !important;
