@@ -33,6 +33,16 @@ body {
     margin-top: 0px;
 }
 
+.navigation ul .nav-item a {
+    color: #fff;
+    transition: .3s;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: unset;
+    font-size: 10px;
+    font-weight: bold;
+}
+
 
 }
 
