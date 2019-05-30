@@ -38,8 +38,8 @@ body {
     transition: .3s;
     text-transform: uppercase;
     display: inline-block;
-    padding: unset;
-    font-size: 10px;
+    padding: unset !important;
+    font-size: 7px !important;
     font-weight: bold;
 }
 
@@ -7027,12 +7027,13 @@ blockquote {
 
 
 .navigation ul .nav-item a {
-    color: #000 !important;
+   
+   color: #fff !important;
     transition: .3s;
     text-transform: uppercase;
     display: inline-block;
-    padding: 1.5rem;
-    font-size: 12px;
+    padding: unset;
+    font-size: 13px !important;
     font-weight: bold;
 }
 
