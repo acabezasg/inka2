@@ -23,6 +23,11 @@ body {
     background-color: #333;
 }
 
+.col-8.col-md-4.navbar__logo img {
+    filter: invert(1);
+    top: -24px !important;
+}
+
 
 
 @media only screen and (max-width: 1200px) {
@@ -2788,7 +2793,7 @@ blockquote img {
  .navbar{position:relative;padding:.5rem 1rem}
 
 
- .navbar,.navbar>.container,.navbar>.container-fluid{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between; background: #121127ad;    z-index: 99999;}
+ .navbar,.navbar>.container,.navbar>.container-fluid{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;     background: #121127;    z-index: 99999;}
 
 
  .navbar-brand{display:inline-block;padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.25rem;line-height:inherit;white-space:nowrap}
@@ -8865,7 +8870,7 @@ img.susto {
 .lookbookhijo1 h2 {
     color: black;
     font-weight: bold;
-    transform: translate(0px, -30px);    position: absolute;font-size: 20px !important;
+    transform: translate(0px, -30px);    position: absolute;font-size: 13px !important;
 }
 
 
@@ -8885,7 +8890,7 @@ img.susto {
 .lookbookhijo2 h2 {
     color: black;
     font-weight: bold;
-    transform: translate(0px, -30px);    position: absolute;font-size: 20px !important;
+    transform: translate(0px, -30px);    position: absolute;font-size: 13px !important;
 }
 
 
@@ -8939,7 +8944,7 @@ img.susto {
 .lookbookhijo5 h2 {
     color: black;
     font-weight: bold;
-    transform: translate(0px, -30px);    position: absolute;font-size: 20px !important;
+    transform: translate(0px, -30px);    position: absolute;font-size: 13px !important;
 }
 
 
