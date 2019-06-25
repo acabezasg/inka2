@@ -7319,7 +7319,13 @@ input#id_quantity{padding:.5rem}
  .navigation ul .nav-item__dropdown>a{padding:.5rem;margin:1rem;box-sizing:border-box;border-bottom:3px solid #fff;    cursor: default;}
 
 
- .navigation ul .nav-item__dropdown-content{display:none;position:absolute;z-index:3;border:1px solid #d3d1d0;background-color:#fff;text-align:left}
+ .navigation ul .nav-item__dropdown-content{    display: none;
+    right: 0px;
+    position: absolute;
+    z-index: 3;
+    border: 1px solid #d3d1d0;
+    background-color: #fff;
+    text-align: left;}
 
 
  .navigation ul .nav-item__dropdown-content a{padding:0;font-size:medium;text-transform:none;text-decoration:none}
