@@ -482,6 +482,13 @@ iframe {
     width: 100%;
 }
 
+.no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+    top: -30px;
+}
+
 
 .pisofinal {
     column-count: 1;
