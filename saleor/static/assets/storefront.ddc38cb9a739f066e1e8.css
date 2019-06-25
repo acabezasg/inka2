@@ -390,7 +390,7 @@ background: white;
 
 
 img.logofooter {
-    width: 300px;
+   
     max-height: 250px;
 }
 
@@ -485,7 +485,7 @@ iframe {
 .no-gutters>.col, .no-gutters>[class*=col-] {
     padding-right: 0;
     padding-left: 0;
-    position: relative;
+    position: relative !important;
     top: -30px;
 }
 
