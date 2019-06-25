@@ -464,15 +464,14 @@ img.logoxd{width: 150px;
 
 
 button.atras {
-    background: #c9a85b;
-    color: white;
-    font-size: 30px;
+    color: black;
+    font-size: 22px;
     border: none;
-    border-radius: 5px;
-    padding: 0px 13px 0px 13px;
-    top: 15px;
-    position: absolute;
+    border-radius: 13px;
+    padding: 6px 13px 0px 12px;
+    position: fixed;
     left: 15px;
+    bottom: 15px;
 }
 
 
@@ -8671,9 +8670,12 @@ div.divhome {
 
 
 .navbar__menu.container.d-block {
-    width: 100%;
-  background: #12112700;
-    max-width: none;    margin-top: 0px;
+    width: 865px;
+    background: #12112700;
+    max-width: none;
+    float: right;
+    margin-right: 0px;
+    margin-top: 0px;
 }
 
 
