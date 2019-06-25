@@ -381,7 +381,7 @@ bootstrap4 = {
 
 TEST_RUNNER = 'tests.runner.PytestTestRunner'
 
-ALLOWED_HOSTS = ['inkatraditions.com', 'inka-saleor.herokuapp.com', 'localhost','inka-saleor.appspot.com', 'www.inkatraditions.com', '127.0.0.1']
+ALLOWED_HOSTS = ['inkatraditions.com', 'inka-saleor.herokuapp.com','inkatraditions.pe' 'localhost','inka-saleor.appspot.com', 'www.inkatraditions.com', '127.0.0.1']
 ALLOWED_GRAPHQL_ORIGINS = os.environ.get('ALLOWED_GRAPHQL_ORIGINS', '*')
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
